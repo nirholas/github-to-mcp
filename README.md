@@ -2,7 +2,7 @@
   <img src="apps/web/public/logo.svg" alt="GitHub to MCP" width="120" height="120" />  
 </p>
 
-<h1 align="center">GitHub to MCP</h1> 
+<h1 align="center">GitHub to MCP</h1>  
 
 <p align="center">
   <strong>Convert any GitHub repository into an MCP server in seconds</strong>
