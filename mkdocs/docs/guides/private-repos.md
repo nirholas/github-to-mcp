@@ -81,7 +81,7 @@ const result = await generateFromGithub(
 
 ## Web UI Authentication
 
-On the [web interface](https://github-to-mcp.vercel.app):
+On the [web interface](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app):
 
 1. Click the **"Settings"** gear icon
 2. Enter your GitHub token in the **"GitHub Token"** field

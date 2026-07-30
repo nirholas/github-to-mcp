@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github-to-mcp.vercel.app">🌐 Web App</a> •
+  <a href="https://github-to-mcp-web-lp642k3kpa-uc.a.run.app">🌐 Web App</a> •
   <a href="#-quick-start">🚀 Quick Start</a> •
   <a href="#-features">✨ Features</a> •
-  <a href="https://docs-github-to-mcp.vercel.app">📖 Docs</a>
+  <a href="https://github-to-mcp-docs-lp642k3kpa-uc.a.run.app">📖 Docs</a>
 </p>
 
 ---
@@ -91,7 +91,7 @@ This project generates MCP servers from GitHub repositories, automatically creat
 
 ### 🌐 Web UI (Easiest)
 
-Visit **[github-to-mcp.vercel.app](https://github-to-mcp.vercel.app)** — Paste any GitHub URL, click Generate, download your MCP server.
+Visit **[github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app)** — Paste any GitHub URL, click Generate, download your MCP server.
 
 ### 💻 CLI (One Command)
 
@@ -186,7 +186,7 @@ pnpm build
 
 ### Using the Web Interface
 
-The web application is deployed at **[github-to-mcp.vercel.app](https://github-to-mcp.vercel.app)**. Use the browser-based interface without any local installation.
+The web application is deployed at **[github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app)**. Use the browser-based interface without any local installation.
 
 ---
 
@@ -603,7 +603,7 @@ You can share your generated tools with others:
 
 **Example:**
 ```
-https://github-to-mcp.vercel.app/playground?gist=abc123&name=My%20API
+https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/playground?gist=abc123&name=My%20API
 ```
 
 ---
@@ -1013,8 +1013,8 @@ Apache 2.0. See [LICENSE](LICENSE) for details.
 
 | Resource | URL |
 |----------|-----|
-| 📖 Documentation | [docs-github-to-mcp.vercel.app](https://docs-github-to-mcp.vercel.app) |
-| 🌐 Web App | [github-to-mcp.vercel.app](https://github-to-mcp.vercel.app) |
+| 📖 Documentation | [docs-github-to-mcp.vercel.app](https://github-to-mcp-docs-lp642k3kpa-uc.a.run.app) |
+| 🌐 Web App | [github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app) |
 | 📦 npm Package | [npmjs.com/package/@nirholas/github-to-mcp](https://www.npmjs.com/package/@nirholas/github-to-mcp) |
 | 🔗 MCP Specification | [modelcontextprotocol.io](https://modelcontextprotocol.io) |
 | 📘 MCP TypeScript SDK | [github.com/modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) |
@@ -1315,7 +1315,7 @@ curl -X POST https://modelcontextprotocol.name/mcp/github-to-mcp \
 
 ### Also Available On
 
-- **[SperaxOS](https://speraxos.vercel.app)** — Browse and install from the [MCP marketplace](https://speraxos.vercel.app/community/mcp)
+- **[SperaxOS](https://github.com/nirholas/github-to-mcp)** — Browse and install from the [MCP marketplace](https://github.com/nirholas/github-to-mcp/community/mcp)
 - **All 27 MCP servers** — See the full catalog at [modelcontextprotocol.name](https://modelcontextprotocol.name)
 
 > Powered by [modelcontextprotocol.name](https://modelcontextprotocol.name) — the open MCP HTTP gateway

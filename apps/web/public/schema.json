@@ -5,7 +5,7 @@
   "applicationCategory": "DeveloperApplication",
   "operatingSystem": "Any",
   "description": "Convert any GitHub repository into a Model Context Protocol (MCP) server for AI assistants like Claude, ChatGPT, Cursor, and more.",
-  "url": "https://github-to-mcp.vercel.app",
+  "url": "https://github-to-mcp-web-lp642k3kpa-uc.a.run.app",
   "downloadUrl": "https://www.npmjs.com/package/@nirholas/github-to-mcp",
   "softwareVersion": "1.0.0",
   "author": {

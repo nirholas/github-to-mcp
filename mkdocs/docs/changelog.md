@@ -11,7 +11,7 @@ First stable release of GitHub to MCP!
 ### Features
 
 - **Core Conversion** - Convert any GitHub repository to MCP server
-- **Web Interface** - Browser-based conversion at [github-to-mcp.vercel.app](https://github-to-mcp.vercel.app)
+- **Web Interface** - Browser-based conversion at [github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app)
 - **CLI Tool** - Command-line interface for automation
 - **Programmatic API** - JavaScript/TypeScript library
 

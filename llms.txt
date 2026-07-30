@@ -25,7 +25,7 @@ GitHub to MCP is a tool that automatically generates Model Context Protocol (MCP
 ## Usage
 
 ### Web UI
-Visit https://github-to-mcp.vercel.app and paste any GitHub URL.
+Visit https://github-to-mcp-web-lp642k3kpa-uc.a.run.app and paste any GitHub URL.
 
 ### CLI
 ```bash
@@ -96,7 +96,7 @@ Set GITHUB_TOKEN environment variable with a token that has repo access.
 
 ## Links
 
-- Website: https://github-to-mcp.vercel.app
+- Website: https://github-to-mcp-web-lp642k3kpa-uc.a.run.app
 - npm: https://www.npmjs.com/package/@nirholas/github-to-mcp
 - GitHub: https://github.com/nirholas/github-to-mcp
 - MCP Protocol: https://modelcontextprotocol.io

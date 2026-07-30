@@ -4,7 +4,7 @@ Convert multiple GitHub repositories to MCP servers at once.
 
 ## Web UI Batch Mode
 
-Visit [github-to-mcp.vercel.app/batch](https://github-to-mcp.vercel.app/batch) to convert multiple repos:
+Visit [github-to-mcp.vercel.app/batch](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/batch) to convert multiple repos:
 
 1. Enter one URL per line
 2. Configure shared options

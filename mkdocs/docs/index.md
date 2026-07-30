@@ -19,7 +19,7 @@ hide:
 Give Claude, ChatGPT, Cursor, Windsurf, Cline, and any AI assistant instant access to any codebase.
 
 [Get Started](getting-started/index.md){ .md-button .md-button--primary }
-[Try Web App](https://github-to-mcp.vercel.app){ .md-button }
+[Try Web App](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app){ .md-button }
 
 </div>
 
@@ -77,7 +77,7 @@ Automatically finds APIs, tools, and functions from OpenAPI specs, code, and doc
 
 ### Web UI (Easiest)
 
-Visit **[github-to-mcp.vercel.app](https://github-to-mcp.vercel.app)** — Paste any GitHub URL, click Generate, download your MCP server.
+Visit **[github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app)** — Paste any GitHub URL, click Generate, download your MCP server.
 
 ### CLI (One Command)
 

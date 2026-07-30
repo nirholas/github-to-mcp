@@ -6,7 +6,7 @@ There are multiple ways to install and use GitHub to MCP depending on your needs
 
 The easiest way to get started — no installation required:
 
-👉 **[github-to-mcp.vercel.app](https://github-to-mcp.vercel.app)**
+👉 **[github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app)**
 
 Simply paste a GitHub URL, configure options, and download your generated MCP server.
 

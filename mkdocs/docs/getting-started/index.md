@@ -51,4 +51,4 @@ Customize output and behavior
 3. [Connect to Claude Desktop](../guides/claude-desktop.md)
 
 !!! tip "Try the Web UI"
-    Don't want to install anything? Use the [web interface](https://github-to-mcp.vercel.app) to convert repos directly in your browser.
+    Don't want to install anything? Use the [web interface](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app) to convert repos directly in your browser.

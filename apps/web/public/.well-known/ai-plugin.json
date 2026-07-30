@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://github-to-mcp.vercel.app/api/openapi.json"
+    "url": "https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/api/openapi.json"
   },
-  "logo_url": "https://github-to-mcp.vercel.app/logo.png",
+  "logo_url": "https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/logo.png",
   "contact_email": "your@email.com",
-  "legal_info_url": "https://github-to-mcp.vercel.app/legal"
+  "legal_info_url": "https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/legal"
 }

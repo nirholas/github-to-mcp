@@ -19,4 +19,4 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://github-to-mcp.vercel.app/sitemap.xml
+Sitemap: https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/sitemap.xml

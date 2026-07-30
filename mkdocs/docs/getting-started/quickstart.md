@@ -14,7 +14,7 @@ https://github.com/stripe/stripe-node
 
 ### Using the Web UI
 
-1. Go to [github-to-mcp.vercel.app](https://github-to-mcp.vercel.app)
+1. Go to [github-to-mcp.vercel.app](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app)
 2. Paste the repository URL
 3. Click **Generate**
 4. Download the generated server
@@ -88,7 +88,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 
 Restart Claude Desktop, and you'll see the tools available:
 
-![Claude with MCP tools](https://github-to-mcp.vercel.app/docs/claude-tools.png)
+![Claude with MCP tools](https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/docs/claude-tools.png)
 
 ### Cursor
 
