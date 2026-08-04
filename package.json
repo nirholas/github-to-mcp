@@ -1,6 +1,6 @@
 {
   "name": "github-to-mcp-monorepo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "description": "Convert any GitHub repository into an MCP server",
   "packageManager": "pnpm@10.23.0",
@@ -38,19 +38,20 @@
     "url": "https://github.com/nirholas/github-to-mcp"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.29.8",
-    "@eslint/js": "^9.39.2",
-    "@types/node": "^25.0.6",
-    "@typescript-eslint/eslint-plugin": "^8.53.0",
-    "@typescript-eslint/parser": "^8.53.0",
-    "@vitest/coverage-v8": "^4.0.16",
-    "eslint": "^9.39.2",
-    "happy-dom": "^20.1.0",
+    "@changesets/cli": "^2.31.1",
+    "@eslint/js": "^9.39.5",
+    "@types/node": "^25.9.5",
+    "@typescript-eslint/eslint-plugin": "^8.66.0",
+    "@typescript-eslint/parser": "^8.66.0",
+    "@vitest/coverage-v8": "^3.2.6",
+    "eslint": "^9.39.5",
+    "happy-dom": "^20.11.1",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
-    "msw": "^2.12.7",
-    "prettier": "^3.8.0",
-    "vitest": "^1.6.1"
+    "lint-staged": "^16.4.0",
+    "msw": "^2.15.0",
+    "prettier": "^3.9.6",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.6"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
