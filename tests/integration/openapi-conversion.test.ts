@@ -49,18 +49,18 @@ describe('OpenAPI to MCP Conversion', () => {
     it('should extract all CRUD operations from Petstore', async () => {
       const result = await convertOpenApiToMcp(petstoreSpec);
 
-      // Should have listPets, createPet, getPet, updatePet, deletePet
+      // Default naming style is snake_case, so operationId listPets becomes list_pets
       const toolNames = result.tools.map((t: any) => t.name);
       
-      expect(toolNames).toContain('listPets');
-      expect(toolNames).toContain('createPet');
-      expect(toolNames).toContain('getPet');
+      expect(toolNames).toContain('list_pets');
+      expect(toolNames).toContain('create_pet');
+      expect(toolNames).toContain('get_pet');
     });
 
     it('should generate proper input schemas', async () => {
       const result = await convertOpenApiToMcp(petstoreSpec);
       
-      const listPetsTool = result.tools.find((t: any) => t.name === 'listPets');
+      const listPetsTool = result.tools.find((t: any) => t.name === 'list_pets');
       expect(listPetsTool).toBeDefined();
       expect(listPetsTool.inputSchema).toBeDefined();
       expect(listPetsTool.inputSchema.type).toBe('object');
@@ -74,14 +74,14 @@ describe('OpenAPI to MCP Conversion', () => {
     it('should preserve descriptions from OpenAPI spec', async () => {
       const result = await convertOpenApiToMcp(petstoreSpec);
       
-      const listPetsTool = result.tools.find((t: any) => t.name === 'listPets');
+      const listPetsTool = result.tools.find((t: any) => t.name === 'list_pets');
       expect(listPetsTool.description).toContain('pet');
     });
 
     it('should handle path parameters correctly', async () => {
       const result = await convertOpenApiToMcp(petstoreSpec);
       
-      const getPetTool = result.tools.find((t: any) => t.name === 'getPet');
+      const getPetTool = result.tools.find((t: any) => t.name === 'get_pet');
       expect(getPetTool).toBeDefined();
       expect(getPetTool.inputSchema.properties.petId).toBeDefined();
       expect(getPetTool.inputSchema.required).toContain('petId');
@@ -92,7 +92,7 @@ describe('OpenAPI to MCP Conversion', () => {
     it('should convert integer types correctly', async () => {
       const result = await convertOpenApiToMcp(petstoreSpec);
       
-      const listPetsTool = result.tools.find((t: any) => t.name === 'listPets');
+      const listPetsTool = result.tools.find((t: any) => t.name === 'list_pets');
       const limitProp = listPetsTool.inputSchema.properties.limit;
       
       expect(limitProp.type).toBe('integer');
@@ -101,7 +101,7 @@ describe('OpenAPI to MCP Conversion', () => {
     it('should handle required fields', async () => {
       const result = await convertOpenApiToMcp(petstoreSpec);
       
-      const createPetTool = result.tools.find((t: any) => t.name === 'createPet');
+      const createPetTool = result.tools.find((t: any) => t.name === 'create_pet');
       expect(createPetTool.inputSchema.required).toBeDefined();
     });
   });

@@ -1,6 +1,19 @@
 import { defineConfig } from 'vitest/config';
+import { fileURLToPath } from 'node:url';
+
+const resolveFromRoot = (relativePath: string) =>
+  fileURLToPath(new URL(relativePath, import.meta.url));
 
 export default defineConfig({
+  resolve: {
+    // The workspace packages are consumed by name from tests and from each
+    // other. Point those names at the TypeScript sources so a run never
+    // depends on a stale dist build.
+    alias: {
+      '@github-to-mcp/openapi-parser': resolveFromRoot('./packages/openapi-parser/src/index.ts'),
+      '@nirholas/github-to-mcp': resolveFromRoot('./packages/core/src/index.ts'),
+    },
+  },
   test: {
     globals: true,
     coverage: {

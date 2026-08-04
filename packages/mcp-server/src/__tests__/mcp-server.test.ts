@@ -75,7 +75,7 @@ describe('MCP Server', () => {
       const code = `
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 const server = new Server();
-// No ListToolsRequestSchema handler
+// Missing the list-tools request handler
 `;
       
       const hasToolDefs = code.includes('ListToolsRequestSchema') || code.includes('tools:');
@@ -117,7 +117,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       const code = `
 from mcp.server import Server
 server = Server("test")
-# No @mcp.tool decorator
+# Missing the tool decorator
 `;
       
       const hasToolDefs = code.includes('@mcp.tool') || code.includes('list_tools');
