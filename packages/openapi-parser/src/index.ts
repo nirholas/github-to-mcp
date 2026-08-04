@@ -265,14 +265,51 @@ export class OpenApiToMcp {
 }
 
 /**
- * Convenience function to convert OpenAPI spec to MCP tools
+ * Coerce whatever the caller passed into an OpenAPI document object.
+ *
+ * Accepts an already-loaded document, or a YAML or JSON string (JSON is a
+ * subset of YAML, so one loader covers both). Anything that is not a usable
+ * spec raises instead of silently converting to zero tools.
  */
-export async function convertOpenApiToMcp(spec: any): Promise<{
+function toOpenApiDocument(spec: unknown): OpenAPIV3.Document {
+  let document: unknown = spec;
+
+  if (typeof document === 'string') {
+    try {
+      document = yaml.load(document);
+    } catch (error) {
+      const detail = error instanceof Error ? error.message : 'unreadable YAML or JSON';
+      throw new Error(`Failed to parse OpenAPI spec: ${detail}`);
+    }
+  }
+
+  if (!document || typeof document !== 'object' || Array.isArray(document)) {
+    throw new Error(
+      'Failed to parse OpenAPI spec: expected an OpenAPI document object, or a YAML or JSON string containing one'
+    );
+  }
+
+  const candidate = document as Record<string, unknown>;
+  if (typeof candidate.openapi !== 'string' && typeof candidate.swagger !== 'string') {
+    throw new Error(
+      'Failed to parse OpenAPI spec: the document is missing the "openapi" or "swagger" version field'
+    );
+  }
+
+  return document as OpenAPIV3.Document;
+}
+
+/**
+ * Convenience function to convert OpenAPI spec to MCP tools
+ *
+ * @param spec An OpenAPI document object, or a YAML or JSON string holding one.
+ */
+export async function convertOpenApiToMcp(spec: unknown): Promise<{
   tools: McpToolDefinition[];
   stats: any;
 }> {
   const parser = new OpenApiParser();
-  const parsedSpec = parser.parseObject(spec);
+  const parsedSpec = parser.parseObject(toOpenApiDocument(spec));
   const v3Spec = parsedSpec as OpenAPIV3.Document;
   
   const analyzer = new OpenApiAnalyzer(v3Spec);
