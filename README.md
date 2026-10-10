@@ -1330,3 +1330,26 @@ Full documentation site: **https://nirholas.github.io/github-to-mcp/**
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nirholas/github-to-mcp&type=Date)](https://www.star-history.com/#nirholas/github-to-mcp&Date)
+
+<!-- three.ws:growth -->
+## Support the project
+
+If github-to-mcp saves you time, **[star it on GitHub](https://github.com/nirholas/github-to-mcp)**. Stars are how other developers and AI agents find the repositories worth trusting, and they cost you one click.
+
+Know someone who would use it? [Post on X](https://twitter.com/intent/tweet?text=github-to-mcp%3A%20Convert%20GitHub%20repositories%20to%20MCP%20servers%20automatically&url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fgithub-to-mcp) · [Share on Bluesky](https://bsky.app/intent/compose?text=github-to-mcp%3A%20Convert%20GitHub%20repositories%20to%20MCP%20servers%20automatically%20https%3A%2F%2Fgithub.com%2Fnirholas%2Fgithub-to-mcp) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fgithub-to-mcp) · [Submit to Hacker News](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fnirholas%2Fgithub-to-mcp&t=github-to-mcp%3A%20Convert%20GitHub%20repositories%20to%20MCP%20servers%20automatically) · [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Fgithub-to-mcp&title=github-to-mcp%3A%20Convert%20GitHub%20repositories%20to%20MCP%20servers%20automatically)
+
+## Built for AI agents too
+
+Coding agents and LLM tooling can read this repo directly: [AGENTS.md](./AGENTS.md), [llms.txt](./llms.txt), [llms-full.txt](./llms-full.txt). Point an agent at `https://github.com/nirholas/github-to-mcp` and it has the context it needs.
+
+## More from the same author
+
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme): the full catalog, grouped by topic
+- [three.ws](https://three.ws): the platform for 3D AI agents with Solana wallets, a skill marketplace and x402 payments
+- Questions or ideas: [open an issue](https://github.com/nirholas/github-to-mcp/issues) or [start a discussion](https://github.com/nirholas/github-to-mcp/discussions)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=nirholas/github-to-mcp)](https://github.com/nirholas/github-to-mcp/graphs/contributors)
+
+<!-- /three.ws:growth -->
