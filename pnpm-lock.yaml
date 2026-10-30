@@ -25,13 +25,13 @@ importers:
         version: 8.66.0(eslint@9.39.5(jiti@1.21.7))(typescript@5.9.3)
       '@vitest/coverage-v8':
         specifier: ^3.2.6
-        version: 3.2.7(vitest@3.2.7(@types/node@25.9.5)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0))
+        version: 3.2.7(vitest@3.2.7(@types/node@25.9.5)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0))
       eslint:
         specifier: ^9.39.5
         version: 9.39.5(jiti@1.21.7)
       happy-dom:
-        specifier: ^20.11.1
-        version: 20.11.1
+        specifier: ^21.0.4
+        version: 21.0.4
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -49,7 +49,7 @@ importers:
         version: 6.4.3(@types/node@25.9.5)(jiti@1.21.7)(tsx@4.21.0)(yaml@2.9.0)
       vitest:
         specifier: ^3.2.6
-        version: 3.2.7(@types/node@25.9.5)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
+        version: 3.2.7(@types/node@25.9.5)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
 
   apps/vscode:
     dependencies:
@@ -186,7 +186,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^3.2.6
-        version: 3.2.7(@types/node@20.19.28)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
+        version: 3.2.7(@types/node@20.19.28)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
 
   packages/core:
     dependencies:
@@ -260,7 +260,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^3.2.6
-        version: 3.2.7(@types/node@20.19.28)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
+        version: 3.2.7(@types/node@20.19.28)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
 
   packages/openapi-parser:
     dependencies:
@@ -297,7 +297,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^3.2.6
-        version: 3.2.7(@types/node@20.19.28)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
+        version: 3.2.7(@types/node@20.19.28)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
       zod:
         specifier: ^4.3.5
         version: 4.3.5
@@ -325,7 +325,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: ^3.2.6
-        version: 3.2.7(@types/node@20.19.28)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
+        version: 3.2.7(@types/node@20.19.28)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
 
 packages:
 
@@ -2267,8 +2267,8 @@ packages:
   '@types/whatwg-mimetype@3.0.2':
     resolution: {integrity: sha512-c2AKvDT8ToxLIOUlN51gTiHXflsfIFisS4pO7pDPoKouJCESkhZnEy623gwP9laCy5lnLDAw1vAzu2vM2YLOrA==}
 
-  '@types/ws@8.18.1':
-    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
+  '@types/ws@8.18.2':
+    resolution: {integrity: sha512-67MQl+fpWKVTT1NYdnmo3U4sc/xPo/zQBncVnI74qmQa0z/b+1g6iYqNmGCPbxO+zz2aklb08a0oHfegiVd0/w==}
 
   '@typescript-eslint/eslint-plugin@8.66.0':
     resolution: {integrity: sha512-p088eaGrzYz1s+7cov0aMOCkNGTJlVxF4jgubf28c8L0Cv9Rloj8YBHnv4hXLq6IIEE1AsjNWavO+k+8kP2Y0A==}
@@ -3504,8 +3504,8 @@ packages:
     engines: {node: '>=0.4.7'}
     hasBin: true
 
-  happy-dom@20.11.1:
-    resolution: {integrity: sha512-XSt8tMzbW9ymE7687xztkO1ckR7qJNQ3LywY9vlYGhGi3zXrGBHuUo2Cl1ztZaICW+1eAGdkLbj6iwVqDT33kg==}
+  happy-dom@21.0.4:
+    resolution: {integrity: sha512-tFm+GaLBgo6o0awHnvHaNoraVo27qJ+2tZEtZ+cIa08hXbeitrxAJajLI05hsUy/2/YTKcUjQYzHe5mCcraLBw==}
     engines: {node: '>=20.0.0'}
 
   has-bigints@1.1.0:
@@ -5137,8 +5137,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.21.2:
-    resolution: {integrity: sha512-54dMVAo4WIe6SKy3vBgN+9bJZqqQ8IMRevAkOLQALhi49qkkQDQfWdAZ8KQlXiEabw88ARXXdUrlvtbKQX+aKw==}
+  ws@8.22.0:
+    resolution: {integrity: sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -6850,7 +6850,7 @@ snapshots:
 
   '@types/set-cookie-parser@2.4.10':
     dependencies:
-      '@types/node': 25.9.5
+      '@types/node': 20.19.43
 
   '@types/statuses@2.0.6': {}
 
@@ -6858,9 +6858,9 @@ snapshots:
 
   '@types/whatwg-mimetype@3.0.2': {}
 
-  '@types/ws@8.18.1':
+  '@types/ws@8.18.2':
     dependencies:
-      '@types/node': 25.9.5
+      '@types/node': 20.19.43
 
   '@typescript-eslint/eslint-plugin@8.66.0(@typescript-eslint/parser@8.66.0(eslint@9.39.5(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.5(jiti@1.21.7))(typescript@5.9.3)':
     dependencies:
@@ -7054,7 +7054,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vitest/coverage-v8@3.2.7(vitest@3.2.7(@types/node@25.9.5)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0))':
+  '@vitest/coverage-v8@3.2.7(vitest@3.2.7(@types/node@25.9.5)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -7069,7 +7069,7 @@ snapshots:
       std-env: 3.10.0
       test-exclude: 7.0.2
       tinyrainbow: 2.0.0
-      vitest: 3.2.7(@types/node@25.9.5)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
+      vitest: 3.2.7(@types/node@25.9.5)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -7385,7 +7385,7 @@ snapshots:
 
   buffer-image-size@0.6.4:
     dependencies:
-      '@types/node': 25.9.5
+      '@types/node': 20.19.43
 
   bundle-require@5.1.0(esbuild@0.27.7):
     dependencies:
@@ -8427,15 +8427,15 @@ snapshots:
     optionalDependencies:
       uglify-js: 3.19.3
 
-  happy-dom@20.11.1:
+  happy-dom@21.0.4:
     dependencies:
-      '@types/node': 25.9.5
+      '@types/node': 20.19.43
       '@types/whatwg-mimetype': 3.0.2
-      '@types/ws': 8.18.1
+      '@types/ws': 8.18.2
       buffer-image-size: 0.6.4
       entities: 7.0.1
       whatwg-mimetype: 3.0.0
-      ws: 8.21.2
+      ws: 8.22.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -10170,7 +10170,7 @@ snapshots:
       tsx: 4.21.0
       yaml: 2.9.0
 
-  vitest@3.2.7(@types/node@20.19.28)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0):
+  vitest@3.2.7(@types/node@20.19.28)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0):
     dependencies:
       '@types/chai': 5.2.3
       '@vitest/expect': 3.2.7
@@ -10197,7 +10197,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 20.19.28
-      happy-dom: 20.11.1
+      happy-dom: 21.0.4
     transitivePeerDependencies:
       - jiti
       - less
@@ -10212,7 +10212,7 @@ snapshots:
       - tsx
       - yaml
 
-  vitest@3.2.7(@types/node@25.9.5)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0):
+  vitest@3.2.7(@types/node@25.9.5)(happy-dom@21.0.4)(jiti@1.21.7)(msw@2.15.0(@types/node@25.9.5)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0):
     dependencies:
       '@types/chai': 5.2.3
       '@vitest/expect': 3.2.7
@@ -10239,7 +10239,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 25.9.5
-      happy-dom: 20.11.1
+      happy-dom: 21.0.4
     transitivePeerDependencies:
       - jiti
       - less
@@ -10330,7 +10330,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.21.2: {}
+  ws@8.22.0: {}
 
   y18n@5.0.8: {}
 
