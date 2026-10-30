@@ -83,7 +83,7 @@ importers:
     dependencies:
       '@modelcontextprotocol/sdk':
         specifier: ^1.25.2
-        version: 1.32.0(zod@4.3.5)
+        version: 1.32.0(zod@4.6.6)
       '@nirholas/github-to-mcp':
         specifier: workspace:*
         version: link:../../packages/core
@@ -241,13 +241,13 @@ importers:
         version: link:../openapi-parser
       '@modelcontextprotocol/sdk':
         specifier: ^1.0.0
-        version: 1.32.0(zod@3.25.76)
+        version: 1.32.0(zod@4.6.6)
       '@nirholas/github-to-mcp':
         specifier: workspace:*
         version: link:../core
       zod:
-        specifier: ^3.23.0
-        version: 3.25.76
+        specifier: ^4.6.6
+        version: 4.6.6
     devDependencies:
       '@types/node':
         specifier: ^20.10.0
@@ -271,7 +271,7 @@ importers:
         specifier: ^16.8.1
         version: 16.12.0
       handlebars:
-        specifier: ^4.7.8
+        specifier: ^4.7.10
         version: 4.7.10
       js-yaml:
         specifier: ^4.1.0
@@ -300,7 +300,7 @@ importers:
         version: 3.2.7(@types/node@20.19.28)(happy-dom@20.11.1)(jiti@1.21.7)(msw@2.15.0(@types/node@20.19.28)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.9.0)
       zod:
         specifier: ^4.3.5
-        version: 4.3.5
+        version: 4.6.6
 
   packages/registry:
     dependencies:
@@ -5175,11 +5175,8 @@ packages:
     peerDependencies:
       zod: ^3.25.28 || ^4
 
-  zod@3.25.76:
-    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
-
-  zod@4.3.5:
-    resolution: {integrity: sha512-k7Nwx6vuWx1IJ9Bjuf4Zt1PEllcwe7cls3VNzm4CQ1/hgtFUK2bRNG3rvnpPUhFjmqJKAKtjV576KnUkHocg/g==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
@@ -6002,7 +5999,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@modelcontextprotocol/sdk@1.32.0(zod@3.25.76)':
+  '@modelcontextprotocol/sdk@1.32.0(zod@4.6.6)':
     dependencies:
       '@hono/node-server': 2.1.5(hono@4.13.13)
       ajv: 8.20.0
@@ -6019,30 +6016,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 3.25.76
-      zod-to-json-schema: 3.25.2(zod@3.25.76)
-    transitivePeerDependencies:
-      - supports-color
-
-  '@modelcontextprotocol/sdk@1.32.0(zod@4.3.5)':
-    dependencies:
-      '@hono/node-server': 2.1.5(hono@4.13.13)
-      ajv: 8.20.0
-      ajv-formats: 3.0.1(ajv@8.20.0)
-      content-type: 1.0.5
-      cors: 2.8.6
-      cross-spawn: 7.0.6
-      eventsource: 3.0.7
-      eventsource-parser: 3.1.1
-      express: 5.3.0
-      express-rate-limit: 8.7.1(express@5.3.0)
-      hono: 4.13.13
-      jose: 6.2.13
-      json-schema-typed: 8.0.2
-      pkce-challenge: 5.0.1
-      raw-body: 3.0.2
-      zod: 4.3.5
-      zod-to-json-schema: 3.25.2(zod@4.3.5)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -10350,14 +10325,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-to-json-schema@3.25.2(zod@3.25.76):
+  zod-to-json-schema@3.25.2(zod@4.6.6):
     dependencies:
-      zod: 3.25.76
+      zod: 4.6.6
 
-  zod-to-json-schema@3.25.2(zod@4.3.5):
-    dependencies:
-      zod: 4.3.5
-
-  zod@3.25.76: {}
-
-  zod@4.3.5: {}
+  zod@4.6.6: {}
