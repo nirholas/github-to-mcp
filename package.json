@@ -40,18 +40,18 @@
   "devDependencies": {
     "@changesets/cli": "^2.31.1",
     "@eslint/js": "^9.39.5",
-    "@types/node": "^25.9.5",
-    "@typescript-eslint/eslint-plugin": "^8.66.0",
-    "@typescript-eslint/parser": "^8.66.0",
-    "@vitest/coverage-v8": "^3.2.6",
+    "@types/node": "^25.9.9",
+    "@typescript-eslint/eslint-plugin": "^8.72.1",
+    "@typescript-eslint/parser": "^8.72.1",
+    "@vitest/coverage-v8": "^3.2.7",
     "eslint": "^9.39.5",
     "happy-dom": "^21.0.4",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "msw": "^2.15.0",
-    "prettier": "^3.9.6",
-    "vite": "^6.4.3",
-    "vitest": "^3.2.6"
+    "prettier": "^3.9.10",
+    "vite": "^6.4.5",
+    "vitest": "^3.2.7"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
