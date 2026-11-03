@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nirholas-github-to-mcp-badge.png)](https://mseep.ai/app/nirholas-github-to-mcp)
+
 <p align="center">  
   <img src="apps/web/public/logo.svg" alt="GitHub to MCP" width="120" height="120" />  
 </p>
