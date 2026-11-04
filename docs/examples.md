@@ -81,7 +81,7 @@ node server.mjs
 ## Example 8
 
 ```text
-https://github-to-mcp-web-lp642k3kpa-uc.a.run.app/playground?gist=abc123&name=My%20API
+https://github-to-mcp.modelcontextprotocol.name/playground?gist=abc123&name=My%20API
 ```
 
 

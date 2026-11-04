@@ -101,7 +101,7 @@ export default async function Image() {
             color: '#71717a',
           }}
         >
-          github-to-mcp.vercel.app
+          github-to-mcp.modelcontextprotocol.name
         </div>
       </div>
     ),

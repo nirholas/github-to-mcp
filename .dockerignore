@@ -1,0 +1,10 @@
+**/node_modules
+**/.next
+**/dist
+.git
+mkdocs/site
+apps/web/public/docs
+_archive
+*.log
+.env
+.env.*

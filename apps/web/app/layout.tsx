@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Providers } from './providers';
 
-const siteUrl = 'https://github-to-mcp.vercel.app';
+const siteUrl = 'https://github-to-mcp.modelcontextprotocol.name';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -82,7 +82,7 @@ export default function RootLayout({
     applicationCategory: 'DeveloperApplication',
     operatingSystem: 'Any',
     description: 'Convert any GitHub repository into a Model Context Protocol (MCP) server for AI assistants.',
-    url: 'https://github-to-mcp.vercel.app',
+    url: 'https://github-to-mcp.modelcontextprotocol.name',
     downloadUrl: 'https://www.npmjs.com/package/@nirholas/github-to-mcp',
     author: { '@type': 'Person', name: 'nirholas' },
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },

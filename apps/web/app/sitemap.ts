@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://github-to-mcp.vercel.app';
+  const baseUrl = 'https://github-to-mcp.modelcontextprotocol.name';
 
   return [
     {

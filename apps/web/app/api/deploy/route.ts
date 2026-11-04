@@ -34,7 +34,7 @@ function hashApiKey(key: string): string {
 
 // Generate server endpoint URL
 function generateEndpoint(serverId: string): string {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://github-to-mcp.vercel.app';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://github-to-mcp.modelcontextprotocol.name';
   return `${baseUrl}/api/mcp/${serverId}`;
 }
 

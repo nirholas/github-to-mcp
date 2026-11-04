@@ -1,6 +1,6 @@
 # Project information
 site_name: GitHub to MCP
-site_url: https://github-to-mcp-docs-lp642k3kpa-uc.a.run.app/
+site_url: https://github-to-mcp-docs.modelcontextprotocol.name/
 site_author: nirholas
 site_description: >-
   Convert any GitHub repository into an MCP server in seconds.
@@ -200,5 +200,6 @@ nav:
     - Development Setup: contributing/development.md
     - Architecture: contributing/architecture.md
     - Testing: contributing/testing.md
+    - Docs Deployment: contributing/docs-deployment.md
   
   - Changelog: changelog.md
