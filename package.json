@@ -60,5 +60,17 @@
     "*.{json,md,yaml,yml}": [
       "prettier --write"
     ]
+  },
+  "pnpm": {
+    "overrides": {
+      "@vitest/mocker@4": "^4.1.12",
+      "esbuild@0.20": "~0.25.0",
+      "esbuild@0.27": "~0.28.1",
+      "glob@10": "^14.0.2",
+      "minimatch@10": "^11.0.1",
+      "minimatch@9": "^11.0.1",
+      "postcss-selector-parser@6": "^6.1.5",
+      "postcss@8": "^8.5.23"
+    }
   }
 }
