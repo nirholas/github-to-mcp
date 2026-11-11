@@ -1,0 +1,1 @@
+{"name":"github-to-mcp","version":"1.0.1","description":"Convert a GitHub repository into a generated MCP server using the github-to-mcp CLI or its stdio MCP server.","author":{"name":"nirholas"},"repository":"https://github.com/nirholas/github-to-mcp","homepage":"https://github-to-mcp.modelcontextprotocol.name","keywords":["mcp","github","codegen","openapi","cli"]}
