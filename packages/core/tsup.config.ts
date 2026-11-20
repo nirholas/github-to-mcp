@@ -10,6 +10,8 @@ export default [
     clean: true,
     target: 'es2022',
     outExtension: () => ({ js: '.mjs' }),
+    // Not published to npm: inline it so `npx @nirholas/github-to-mcp` installs.
+    noExternal: ['@github-to-mcp/openapi-parser'],
   }),
   // CLI build  
   defineConfig({
@@ -18,6 +20,7 @@ export default [
     sourcemap: true,
     target: 'es2022',
     outExtension: () => ({ js: '.mjs' }),
+    noExternal: ['@github-to-mcp/openapi-parser'],
     banner: {
       js: '#!/usr/bin/env node',
     },
