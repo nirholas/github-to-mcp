@@ -7,7 +7,7 @@ import { GithubClient } from '../github-client';
 
 // Mock Octokit
 vi.mock('@octokit/rest', () => ({
-  Octokit: vi.fn().mockImplementation(() => ({
+  Octokit: vi.fn().mockImplementation(function () { return ({
     repos: {
       get: vi.fn(),
       getContent: vi.fn(),
@@ -15,7 +15,7 @@ vi.mock('@octokit/rest', () => ({
     rateLimit: {
       get: vi.fn(),
     },
-  })),
+  }); }),
 }));
 
 describe('GithubClient', () => {

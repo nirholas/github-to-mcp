@@ -13,7 +13,7 @@ import {
 
 // Mock the imports
 vi.mock('../github-client', () => ({
-  GithubClient: vi.fn().mockImplementation(() => ({
+  GithubClient: vi.fn().mockImplementation(function () { return ({
     parseGithubUrl: vi.fn().mockReturnValue({ owner: 'test', repo: 'repo' }),
     getRepoMetadata: vi.fn().mockResolvedValue({
       stars: 100,
@@ -24,37 +24,37 @@ vi.mock('../github-client', () => ({
     getReadme: vi.fn().mockResolvedValue('# Test Repo\n\nThis is a test'),
     getFile: vi.fn().mockResolvedValue(null),
     searchCode: vi.fn().mockResolvedValue([])
-  }))
+  }); })
 }));
 
 vi.mock('../readme-extractor', () => ({
-  ReadmeExtractor: vi.fn().mockImplementation(() => ({
+  ReadmeExtractor: vi.fn().mockImplementation(function () { return ({
     extract: vi.fn().mockResolvedValue([])
-  }))
+  }); })
 }));
 
 vi.mock('../code-extractor', () => ({
-  CodeExtractor: vi.fn().mockImplementation(() => ({
+  CodeExtractor: vi.fn().mockImplementation(function () { return ({
     extract: vi.fn().mockResolvedValue([])
-  }))
+  }); })
 }));
 
 vi.mock('../graphql-extractor', () => ({
-  GraphQLExtractor: vi.fn().mockImplementation(() => ({
+  GraphQLExtractor: vi.fn().mockImplementation(function () { return ({
     extract: vi.fn().mockResolvedValue([])
-  }))
+  }); })
 }));
 
 vi.mock('../mcp-introspector', () => ({
-  McpIntrospector: vi.fn().mockImplementation(() => ({
+  McpIntrospector: vi.fn().mockImplementation(function () { return ({
     extract: vi.fn().mockResolvedValue([])
-  }))
+  }); })
 }));
 
 vi.mock('../python-generator', () => ({
-  PythonGenerator: vi.fn().mockImplementation(() => ({
+  PythonGenerator: vi.fn().mockImplementation(function () { return ({
     generateServer: vi.fn().mockReturnValue('# Python MCP Server')
-  }))
+  }); })
 }));
 
 vi.mock('@github-to-mcp/openapi-parser', () => ({
